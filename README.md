@@ -21,7 +21,7 @@ Start the development server on `http://localhost:3000`:
 
 ```bash
 # yarn
-npx yarn dev --open
+npx yarn dev --open --host
 ```
 
 ## Production

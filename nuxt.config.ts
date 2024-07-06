@@ -14,6 +14,18 @@ export default defineNuxtConfig({
             display: "standalone",
             theme_color: "#B12A34",
             background_color: "#B12A34",
+            screenshots: [
+                {
+                    src: "screenshots/wide.png",
+                    form_factor: 'wide',
+                    sizes: "2466x1258",
+                },
+                {
+                    src: "screenshots/narrow.png",
+                    form_factor: 'narrow',
+                    sizes: "747x1150",
+                }
+            ],
             icons:[
                 {
                     src: "icons/360.png",

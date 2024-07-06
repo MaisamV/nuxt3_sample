@@ -8,9 +8,9 @@ export default defineNuxtConfig({
     pwa: {
         manifest: {
             name: "My PWA",
-            short_name: "js13kPWA",
+            short_name: "My PWA",
             start_url: "/",
-            description: "Progressive Web App that lists games submitted to the A-Frame category in the js13kGames 2017 competition.",
+            description: "A simple Progressive Web App",
             display: "standalone",
             theme_color: "#B12A34",
             background_color: "#B12A34",

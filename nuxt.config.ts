@@ -16,14 +16,14 @@ export default defineNuxtConfig({
             background_color: "#B12A34",
             icons:[
                 {
-                    src: "icons/192.png",
+                    src: "icons/360.png",
                     type: "image/png",
-                    sizes: "192x192"
+                    sizes: "360x360"
                 },
                 {
-                    src: "icons/512.png",
+                    src: "icons/768.png",
                     type: "image/png",
-                    sizes: "512x512"
+                    sizes: "768x768"
                 }
             ]
         },

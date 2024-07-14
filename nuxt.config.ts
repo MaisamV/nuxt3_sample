@@ -3,7 +3,8 @@ export default defineNuxtConfig({
     devtools: {enabled: true},
     ssr: true,
     modules: [
-        '@vite-pwa/nuxt'
+        '@vite-pwa/nuxt',
+        '@pinia/nuxt'
     ],
     pwa: {
         manifest: {
